@@ -1,0 +1,167 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(54.200000, -124.875224);
+		var myOptions = {
+			zoom: 6,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(51.433472, -122.321706);
+		var marker = new google.maps.Marker({
+		label: "Centroid 0",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.347377, -125.354203);
+		var marker = new google.maps.Marker({
+		label: "Centroid 1",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.195498, -126.091103);
+		var marker = new google.maps.Marker({
+		label: "Centroid 2",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.720107, -125.470846);
+		var marker = new google.maps.Marker({
+		label: "Centroid 3",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.492838, -126.390726);
+		var marker = new google.maps.Marker({
+		label: "Centroid 4",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.282595, -124.888745);
+		var marker = new google.maps.Marker({
+		label: "Centroid 5",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(49.896626, -122.431809);
+		var marker = new google.maps.Marker({
+		label: "Centroid 6",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.603266, -125.561929);
+		var marker = new google.maps.Marker({
+		label: "Centroid 7",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(52.279177, -121.735508);
+		var marker = new google.maps.Marker({
+		label: "Centroid 8",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.402278, -125.865718);
+		var marker = new google.maps.Marker({
+		label: "Centroid 9",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.387802, -125.284657);
+		var marker = new google.maps.Marker({
+		label: "Centroid 10",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.513045, -126.554843);
+		var marker = new google.maps.Marker({
+		label: "Centroid 11",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.371625, -125.187727);
+		var marker = new google.maps.Marker({
+		label: "Centroid 12",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.571998, -126.078715);
+		var marker = new google.maps.Marker({
+		label: "Centroid 13",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.403627, -126.357106);
+		var marker = new google.maps.Marker({
+		label: "Centroid 14",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.243569, -121.642320);
+		var marker = new google.maps.Marker({
+		label: "Centroid 15",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.369778, -125.180338);
+		var marker = new google.maps.Marker({
+		label: "Centroid 16",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(50.481635, -125.023437);
+		var marker = new google.maps.Marker({
+		label: "Centroid 17",
+		size: new google.maps.Size(20,20),
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
